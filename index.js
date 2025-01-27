@@ -93,8 +93,6 @@ app.delete('/api/notes/:id', (request, response) => {
   response.status(204).end()
 })
 
-app.use(express.static('dist'))
-
 app.use(unknownEndpoint)
 
 const PORT = process.env.PORT || 3001
