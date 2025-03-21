@@ -1,0 +1,6 @@
+PUT http://localhost:3001/api/notes/67ddade74c2817326f943501
+Content-Type: application/json
+
+{
+"content": "HTML is a markup", "important": true
+}
